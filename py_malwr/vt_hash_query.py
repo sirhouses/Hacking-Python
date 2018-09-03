@@ -9,7 +9,7 @@ import sys
 hash_value = sys.argv[1]
 
 vt_url = "https://www.virustotal.com/vtapi/v2/file/report"
-api_key = "86087bffb899dab43b3cc84ae23129737f3d36f4e9f753f33f6602b6810baca8"
+api_key = "YOUR API KEY"
 parameters = {'apikey': api_key, 'resource': hash_value}
 encoded_parameters = urllib.urlencode(parameters)
 request = urllib2.Request(vt_url, encoded_parameters)
