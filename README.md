@@ -1,2 +1,3 @@
 # Hacking-Python
-Simple scripts
+
+Python Scripts for Networking, Hacking and Malware Analysis
